@@ -252,3 +252,16 @@ stateDiagram-v2
     進行中 --> [*] : 削除ボタン押下 / handleDeleteTask()<br>【LocalStorageから消去】
     完了 --> [*] : 削除ボタン押下 or 一括クリア / handleDeleteTask()<br>【LocalStorageから消去】
 
+
+
+## 現在動く機能
+- [x] タスク追加機能 ＆ 空文字バリデーション
+- [x]ドラッグ＆ドロップによるステータス変更
+- [ ] タスク内容の編集機能
+## 起動方法
+
+javascript app.jsx
+## 動作確認
+1. ブラウザで (http://localhost:5173/) を開く
+2. タスクを入力して登録
+3. 一覧に表示されることを確認
